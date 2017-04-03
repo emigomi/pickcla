@@ -1,4 +1,4 @@
-#!/bin/sh
-cd ../var/www/html/
-git clone git@github.com:emigomi/pickcla.git
+#!/bin/bash
+cd ../var/www/html/pickcla
+git pull origin master
 sudo service apache2 restart
